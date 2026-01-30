@@ -26,3 +26,4 @@ class login {
 }
 
 module.exports = { login };
+//test
