@@ -27,7 +27,7 @@ export default defineConfig({
 
   use: {
     screenshots: 'on',
-    video: 'on',
+    video: 'off',
     trace: 'on-first-retry',
   },
 
