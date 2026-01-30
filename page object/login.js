@@ -19,7 +19,7 @@ class login {
         await this.submitButton.click();
     }
     async verifyLoginSuccess() {
-        await expect(this.msg).toBeVisible();
+        await expect(this.msg).toBeVisible(); //new
     }
 
     
