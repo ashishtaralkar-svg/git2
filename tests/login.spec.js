@@ -8,5 +8,5 @@ test('login test', async ({ browser }) => {
     
     const loginPage = new login(page);
     await loginPage.loginToApplication(logindata.username, logindata.password);
-    await loginPage.verifyLoginSuccess();
+    await loginPage.verifyLoginSuccess(); //test
     });
